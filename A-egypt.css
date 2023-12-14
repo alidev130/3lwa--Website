@@ -1,0 +1,105 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: gray ; 
+  height: 604px;
+  }
+.banner {
+  background: #47C58E;
+  height: 800px;
+  width: 650px;
+  border-radius: 15px;
+  margin: 7px 14px
+  }
+
+header {
+  height: 264px;
+  background: whitesmoke;
+  border-radius: 10px
+  }
+header .items *{
+  margin-left : 3rem;
+  }
+header .items {
+  margin-right: 3rem;
+  margin-top: 0;
+  padding-top: 0;
+  }
+header div.red {
+  width: 100%;
+  background: red;
+  height: 75px;
+  border-top-left-radius: 10px
+  ;
+  border-top-right-radius: 10px
+  }
+header div.black {
+  width: 100%;
+  background: black;
+  height: 75px;
+  border-bottom-left-radius: 10px
+  ;
+  border-bottom-right-radius: 10px
+  }
+header h1 {
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 40px;
+  }
+header img {
+  height: 70px;
+  }
+footer img {
+  width: 200px;
+  }
+article {
+  flex-direction: column;
+  margin: 2rem
+  }
+article * {
+  margin: 1rem;
+  }
+.button {
+ padding: 17px 40px;
+ border-radius: 50px;
+ border: 0;
+ background-color: white;
+ box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+ letter-spacing: 1.5px;
+ text-transform: uppercase;
+ font-size: 20px;
+ transition: all .5s ease;
+  text-decoration: none;
+  text-align: center;
+  font-family: Reem Kufi;
+  letter-spacing: 0px;
+  height: 30px
+}
+
+.button:hover {
+ letter-spacing: 3px;
+ background-color: hsl(261deg 80% 48%);
+ color: hsl(0, 0%, 100%);
+ box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+}
+
+.button:active {
+ letter-spacing: 3px;
+ background-color: hsl(261deg 80% 48%);
+ color: hsl(0, 0%, 100%);
+ box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+ transform: translateY(10px);
+ transition: 100ms;
+}
+
+::selection {
+  background: red;
+  }
+
+img::selection {
+  background: transparent;
+  }
+a.bakk {
+  font-family: 'Reem Kufi', sans-serif;
+  }

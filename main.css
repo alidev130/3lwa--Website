@@ -1,0 +1,158 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500;600;700&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: gray ; 
+  height: 1004px;
+  transition: all 1s ease
+  }
+
+.banner {
+  background: #47C58E;
+  height:900px;
+  width: 804px;
+  border-radius: 15px;
+  margin: 7px 14px
+  }
+
+header {
+  height: 100px;
+  }
+
+header .head img {
+  height: 65px;
+  margin-top: 6px; margin-right:10px;
+  }
+
+header h1 {
+font-family: 'Rubik', sans-serif;
+  color: black;
+  margin-left: 45%; 
+  margin-top: 2px;
+  font-size: 50px
+  }
+main {
+  position: relative;
+  }
+.items {
+  flex-direction: column;
+font-family: 'Marhey', sans-serif;
+  height: 500px
+  }
+
+.items a {
+  text-align: center; 
+  margin-bottom: 2rem; 
+  font-size: 30px;
+  text-decoration: none;
+  color: #21FD0;
+  transition: all 0.5s ease-in-out;
+  }
+
+.items a:hover {
+  background: blue;
+  color: black;
+  box-shadow: 1px 1px 1px 1px orange ;
+  letter-spacing: 2px;
+  font-size: 32px
+  }
+
+footer {
+  top: 500px;
+  left: 1rem; flex-direction: column
+  }
+
+footer p {
+  color: #020039;
+  font-family: 'El Messiri', sans-serif;
+  font-size: 17px;
+  margin:60px 6px;
+  direction: rtl
+}
+
+.bann {
+  background: #4F1C44;
+  height: 890px;
+  width: 604px;
+  border-radius: 15px;
+  margin: 7px 14px
+  }
+footer img {
+  width: 205px; position: relative; bottom: 70px
+  }
+.banner-novel {
+  background: #1F1C44;
+  height: 390px;
+  width: 604px;
+  border-radius: 15px;
+  margin: 7px 14px
+  }
+.go{
+  background: #1C464F;
+  font-size: 35px;
+  color: white;
+font-family: 'El Messiri', sans-serif;
+font-family: 'Marhey', sans-serif;
+font-family: 'Rubik', sans-serif;  }
+
+.linr {
+  top: 20px;
+  }
+
+.item {
+  flex-direction: 
+  column;
+  font-family: 'Rubik', sans-serif;
+  margin-top: 70px;
+  }
+
+.item div{
+  margin: 0.5rem; 
+  text-align: center;
+  font-size: 28px; 
+  background: antiquewhite;
+  height: 50px
+  }
+  
+
+.item div a {
+  color: darkslategrey;
+  text-decoration: none
+  }
+
+div.special {
+  height: auto; 
+  font-size: 20px
+  }
+a.bakk {
+  font-family: 'Reem Kufi', sans-serif;
+  }
+@media (min-width: 300px) and (max-width: 370px) {
+  header h1 {
+    
+    }
+  .items {
+    left: 15%;
+    }
+  .banner {
+    height: 855px;
+  }
+  }
+@media (min-width: 450px) and (max-width: 530px) {
+  header h1 {
+    margin: auto;
+    margin-left: 41%;
+    margin-bottom: 1rem
+    }
+  .lin {
+    margin: auto;
+    justify-self: center;
+    }
+  div.line {
+    margin: auto;
+    justify-self: center;
+    
+  }
+  }

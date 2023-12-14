@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: gray ; 
+  height: 604px;
+  font-family: 'Tajawal', sans-serif;
+  }
+
+.banner {
+  background:rgb(100 ,0 ,0);
+  height:1600px;
+  width: 350px;
+  border-radius: 15px;
+  margin: 7px 14px
+  }
+
+header {
+  height: 100px;
+  border-radius: 10px;
+  font-family: Reem Kufi
+  }
+*::selection {
+  color: cyan;
+  background: #333
+  }
+
+  .card {
+  width: 195px;
+  height: 285px;
+  background: blue;
+  border-radius: 20px;
+  ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: 0.2s ease-in-out;
+    font-family: Reem Kufi;
+}
+
+.img {
+  height: 250px;
+  width: 180px;
+  position: absolute;
+  transition: 1s;
+  z-index: 1;
+  border-radius: 20px
+}
+
+.textBox {
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  transition: 0.2s ease-in-out;
+  z-index: 2;
+}
+
+.textBox > .text {
+  font-weight: bold;
+}
+
+.textBox > .head {
+  font-size: 20px;
+}
+
+.textBox > .price {
+  font-size: 17px;
+}
+
+.textBox > span {
+  font-size: 12px;
+  color: lightgrey;
+}
+
+.card:hover > .textBox {
+  opacity: 1;
+}
+
+.card:hover > .img {
+  height: 200px;
+  filter: blur(7px);
+  animation: anim 4s infinite;
+}
+
+@keyframes anim {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.card:hover {
+  transform: scale(1.04) rotate(-1deg);
+}
+main * {
+  margin: 2rem;
+  }
+
